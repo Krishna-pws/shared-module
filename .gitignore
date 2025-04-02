@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+dist/
+build/
+
+
+
+# IDE and OS Files
+.DS_Store
+Thumbs.db
+
+# Lock Files
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+# Storybook
+storybook-static/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Coverage Reports
+coverage/
+*.lcov
+
+# Misc
+.idea/
+*.swp
