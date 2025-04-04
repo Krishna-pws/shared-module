@@ -12,4 +12,10 @@ export interface User {
     error: string | null;
     message: string | null;
   }
+ export interface SignupThunkInterface {
+    message: string;
+  }
   
+export  interface LoginThunkInterface {
+    token: string;
+  }
