@@ -1,11 +1,17 @@
 export interface Stat {
+    id: string;
     title: string;
     value: number;
+    change: number;
+    trend: 'up' | 'down';
+    icon: string;
   }
   
   export interface ChartItem {
-    name: string;
+    id: string;
+    date: string;
     value: number;
+    category: string;
   }
   
   export interface ChartCardProps {
