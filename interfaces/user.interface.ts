@@ -13,6 +13,7 @@ export interface AuthState {
   loading: boolean;
   error: string | null;
   message: string | null;
+  allUsers: User[];
 }
 export interface SignupThunkInterface {
   message: string;
